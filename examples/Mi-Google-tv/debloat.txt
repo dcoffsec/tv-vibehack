@@ -1,0 +1,24 @@
+# Xiaomi Mi TV — MITV41
+# Exact model and firmware must be verified first.
+# Apply: tools/disable.sh examples/mi-tv/debloat.txt
+# Undo:  tools/restore.sh examples/mi-tv/debloat.txt
+#
+# Disable only verified packages; never uninstall.
+# Do not add packages until confirmed present and safe.
+
+# Xiaomi telemetry — verify first
+# com.miui.tv.analytics
+# com.xiaomi.statistic
+
+# PatchWall recommendations — verify first
+# com.mitv.tvhome.mitvplus
+# com.mitv.tvhome.michannel
+
+# Unused Google apps — verify first
+# com.google.android.play.games
+# com.google.android.feedback
+
+# IMPORTANT:
+# Keep your current launcher enabled until a replacement
+# is installed and working. Verify Home-button behavior
+# before disabling any launcher or setup component.
